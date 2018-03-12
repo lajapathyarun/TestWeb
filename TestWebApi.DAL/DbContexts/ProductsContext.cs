@@ -8,7 +8,6 @@ using TestWebApi.Models;
 
 namespace TestWebApi.DAL.DbContexts
 {
-// Test Comment
     public class ProductsContext : DbContext
     {
         public ProductsContext()
