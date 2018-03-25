@@ -99,12 +99,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TestWebMvc\TestWebMvc.csproj">
-      <Project>{33E7E68D-96A6-4B58-8735-B4FBD90F0A75}</Project>
-      <Name>TestWebMvc</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
