@@ -11,7 +11,7 @@ namespace TestWebApi.Repository.Classes
 {
     public class ProductRepository : IProductRepository, IDisposable
     {
-        private ProductsContext db = new ProductsContext();
+        private ProductsContext db = new ProductsContext();//Hello
 
         public IEnumerable<Product> GetAll()
         {
