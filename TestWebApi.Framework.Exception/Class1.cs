@@ -8,5 +8,5 @@ namespace TestWebApi.Framework.Exception
 {
     public class Class1
     {
-    }//
+    }// 
 }
