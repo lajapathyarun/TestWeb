@@ -53,13 +53,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestWebApi.DAL\TestWebApi.DAL.csproj">
+    <ProjectReference Include="..\TestWebApi.DAL\TestWeb.DAL.csproj">
       <Project>{167c2779-36a8-4da0-9ac7-e920587ae0bb}</Project>
-      <Name>TestWebApi.DAL</Name>
+      <Name>TestWeb.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TestWebApi.Models\TestWebApi.Models.csproj">
+    <ProjectReference Include="..\TestWebApi.Models\TestWeb.Models.csproj">
       <Project>{10eb58a0-7e48-404c-884f-f0088aa5b316}</Project>
-      <Name>TestWebApi.Models</Name>
+      <Name>TestWeb.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

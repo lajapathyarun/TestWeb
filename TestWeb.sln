@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{968C3238-F666-4DE9-92F1-D7840555BEC5}"
 EndProject
@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebMvc.Tests", "TestWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Repositories", "TestWebApi.Repository\TestWebApi.Repositories.csproj", "{4910E78A-F67D-435D-83E2-79F679B499A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.DAL", "TestWebApi.DAL\TestWebApi.DAL.csproj", "{167C2779-36A8-4DA0-9AC7-E920587AE0BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.DAL", "TestWebApi.DAL\TestWeb.DAL.csproj", "{167C2779-36A8-4DA0-9AC7-E920587AE0BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Models", "TestWebApi.Models\TestWebApi.Models.csproj", "{10EB58A0-7E48-404C-884F-F0088AA5B316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Models", "TestWebApi.Models\TestWeb.Models.csproj", "{10EB58A0-7E48-404C-884F-F0088AA5B316}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AF1FE9FC-E286-429E-8DE6-B9372B7EF272}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Shared.Constants", "TestWebApi.Shared.Constants\TestWebApi.Shared.Constants.csproj", "{9C38F68C-E46E-4812-93D4-EE567C744731}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Framework.Extensions", "TestWebApi.Framework.Extensions\TestWebApi.Framework.Extensions.csproj", "{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testweb.DAL.Extensions", "Testweb.DAL.Extensions\Testweb.DAL.Extensions.csproj", "{09BED954-7648-4C6E-BD37-069747C8C6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +117,10 @@ Global
 		{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BED954-7648-4C6E-BD37-069747C8C6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BED954-7648-4C6E-BD37-069747C8C6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BED954-7648-4C6E-BD37-069747C8C6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BED954-7648-4C6E-BD37-069747C8C6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +139,7 @@ Global
 		{D549541B-3411-4D61-BC37-9F7CD9645056} = {AF1FE9FC-E286-429E-8DE6-B9372B7EF272}
 		{9C38F68C-E46E-4812-93D4-EE567C744731} = {3FD3F984-D937-475F-A6D8-B4364ED36BA7}
 		{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806} = {A91AE79C-59D7-4B54-9E68-9D8394BE39E8}
+		{09BED954-7648-4C6E-BD37-069747C8C6EF} = {7BBE4728-1633-4FF5-98AC-D1C72184A542}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE745AB1-29C5-4EC2-B44C-49E795D7C826}
