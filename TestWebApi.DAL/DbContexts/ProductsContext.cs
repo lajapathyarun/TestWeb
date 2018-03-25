@@ -14,6 +14,6 @@ namespace TestWebApi.DAL.DbContexts
             : base("name=ProductsContext")
         {
         }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; }   //kjlkjljl
     }
 }
