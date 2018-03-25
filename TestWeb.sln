@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Tests", "TestWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Repositories", "TestWebApi.Repository\TestWebApi.Repositories.csproj", "{4910E78A-F67D-435D-83E2-79F679B499A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.DAL", "TestWebApi.DAL\TestWeb.DAL.csproj", "{167C2779-36A8-4DA0-9AC7-E920587AE0BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.DAL", "TestWeb.DAL\TestWeb.DAL.csproj", "{167C2779-36A8-4DA0-9AC7-E920587AE0BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Models", "TestWebApi.Models\TestWeb.Models.csproj", "{10EB58A0-7E48-404C-884F-F0088AA5B316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Models", "TestWeb.Models\TestWeb.Models.csproj", "{10EB58A0-7E48-404C-884F-F0088AA5B316}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AF1FE9FC-E286-429E-8DE6-B9372B7EF272}"
 EndProject
@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8F285015
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.ViewModels", "TestWebApi.ViewModels\TestWebApi.ViewModels.csproj", "{15FC46F2-44B6-445E-8AD5-5FF618B8F54B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Framework.Caching", "TestWebApi.Framework.Caching\TestWebApi.Framework.Caching.csproj", "{9E9FBC18-D49E-4BFB-84CB-F92397ABF9A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Framework.Caching", "TestWeb.Framework.Caching\TestWeb.Framework.Caching.csproj", "{9E9FBC18-D49E-4BFB-84CB-F92397ABF9A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Framework.Exception", "TestWebApi.Framework.Exception\TestWebApi.Framework.Exception.csproj", "{CCD41ACB-B1A6-4696-A03B-0F48A41992B6}"
 EndProject

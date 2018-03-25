@@ -52,7 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestWebApi.Models\TestWeb.Models.csproj">
+    <ProjectReference Include="..\TestWeb.Models\TestWeb.Models.csproj">
       <Project>{10EB58A0-7E48-404C-884F-F0088AA5B316}</Project>
       <Name>TestWeb.Models</Name>
     </ProjectReference>

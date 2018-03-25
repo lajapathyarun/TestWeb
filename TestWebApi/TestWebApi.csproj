@@ -435,7 +435,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestWebApi.Models\TestWeb.Models.csproj">
+    <ProjectReference Include="..\TestWeb.Models\TestWeb.Models.csproj">
       <Project>{10eb58a0-7e48-404c-884f-f0088aa5b316}</Project>
       <Name>TestWeb.Models</Name>
     </ProjectReference>
