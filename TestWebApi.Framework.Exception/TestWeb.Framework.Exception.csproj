@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15FC46F2-44B6-445E-8AD5-5FF618B8F54B}</ProjectGuid>
+    <ProjectGuid>{CCD41ACB-B1A6-4696-A03B-0F48A41992B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestWebApi.ViewModels</RootNamespace>
-    <AssemblyName>TestWebApi.ViewModels</AssemblyName>
+    <RootNamespace>TestWeb.Framework.Exception</RootNamespace>
+    <AssemblyName>TestWeb.Framework.Exception</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

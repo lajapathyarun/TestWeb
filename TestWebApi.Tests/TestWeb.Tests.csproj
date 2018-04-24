@@ -9,8 +9,8 @@
     <ProjectGuid>{D7EB9F77-639F-447E-B3A5-C4C7D7F94E3F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestWebApi.Tests</RootNamespace>
-    <AssemblyName>TestWebApi.Tests</AssemblyName>
+    <RootNamespace>TestWeb.Tests</RootNamespace>
+    <AssemblyName>TestWeb.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -104,9 +104,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestWebApi\TestWebApi.csproj">
+    <ProjectReference Include="..\TestWebApi\TestWeb.csproj">
       <Project>{968C3238-F666-4DE9-92F1-D7840555BEC5}</Project>
-      <Name>TestWebApi</Name>
+      <Name>TestWeb</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

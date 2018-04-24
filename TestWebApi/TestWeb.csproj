@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestWebApi</RootNamespace>
-    <AssemblyName>TestWebApi</AssemblyName>
+    <RootNamespace>TestWeb</RootNamespace>
+    <AssemblyName>TestWeb</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -439,9 +439,9 @@
       <Project>{10eb58a0-7e48-404c-884f-f0088aa5b316}</Project>
       <Name>TestWeb.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TestWebApi.Repository\TestWebApi.Repositories.csproj">
+    <ProjectReference Include="..\TestWebApi.Repository\TestWeb.Repositories.csproj">
       <Project>{4910e78a-f67d-435d-83e2-79f679b499a8}</Project>
-      <Name>TestWebApi.Repositories</Name>
+      <Name>TestWeb.Repositories</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

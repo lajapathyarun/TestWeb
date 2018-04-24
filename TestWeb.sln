@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{968C3238-F666-4DE9-92F1-D7840555BEC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb", "TestWebApi\TestWeb.csproj", "{968C3238-F666-4DE9-92F1-D7840555BEC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Tests", "TestWebApi.Tests\TestWebApi.Tests.csproj", "{D7EB9F77-639F-447E-B3A5-C4C7D7F94E3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Tests", "TestWebApi.Tests\TestWeb.Tests.csproj", "{D7EB9F77-639F-447E-B3A5-C4C7D7F94E3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Repositories", "TestWebApi.Repository\TestWebApi.Repositories.csproj", "{4910E78A-F67D-435D-83E2-79F679B499A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Repositories", "TestWebApi.Repository\TestWeb.Repositories.csproj", "{4910E78A-F67D-435D-83E2-79F679B499A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.DAL", "TestWeb.DAL\TestWeb.DAL.csproj", "{167C2779-36A8-4DA0-9AC7-E920587AE0BB}"
 EndProject
@@ -23,25 +23,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8F285015-99F2-4A2F-A78A-BF12BB6DB081}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.ViewModels", "TestWebApi.ViewModels\TestWebApi.ViewModels.csproj", "{15FC46F2-44B6-445E-8AD5-5FF618B8F54B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.ViewModels", "TestWebApi.ViewModels\TestWeb.ViewModels.csproj", "{15FC46F2-44B6-445E-8AD5-5FF618B8F54B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Framework.Caching", "TestWeb.Framework.Caching\TestWeb.Framework.Caching.csproj", "{9E9FBC18-D49E-4BFB-84CB-F92397ABF9A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Framework.Exception", "TestWebApi.Framework.Exception\TestWebApi.Framework.Exception.csproj", "{CCD41ACB-B1A6-4696-A03B-0F48A41992B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Framework.Exception", "TestWebApi.Framework.Exception\TestWeb.Framework.Exception.csproj", "{CCD41ACB-B1A6-4696-A03B-0F48A41992B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Framework.Security", "TestWebApi.Framework.Security\TestWebApi.Framework.Security.csproj", "{0C63F7B4-8AFC-4DE7-8FCC-A5EFCBFC26EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Framework.Security", "TestWebApi.Framework.Security\TestWeb.Framework.Security.csproj", "{0C63F7B4-8AFC-4DE7-8FCC-A5EFCBFC26EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Shared.Extensions", "TestWebApi.Shared.Extensions\TestWebApi.Shared.Extensions.csproj", "{C4635051-52F2-41A9-89C0-2DD6A7E5E397}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Shared.Extensions", "TestWebApi.Shared.Extensions\TestWeb.Shared.Extensions.csproj", "{C4635051-52F2-41A9-89C0-2DD6A7E5E397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Shared.Utilities", "TestWebApi.Shared.Utilities\TestWebApi.Shared.Utilities.csproj", "{76833AE6-251A-4CE9-AE89-0E719848C055}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Shared.Utilities", "TestWebApi.Shared.Utilities\TestWeb.Shared.Utilities.csproj", "{76833AE6-251A-4CE9-AE89-0E719848C055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Controllers", "TestWebApi.Controllers\TestWebApi.Controllers.csproj", "{D549541B-3411-4D61-BC37-9F7CD9645056}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Controllers", "TestWebApi.Controllers\TestWeb.Controllers.csproj", "{D549541B-3411-4D61-BC37-9F7CD9645056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Shared.Constants", "TestWebApi.Shared.Constants\TestWebApi.Shared.Constants.csproj", "{9C38F68C-E46E-4812-93D4-EE567C744731}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Shared.Constants", "TestWebApi.Shared.Constants\TestWeb.Shared.Constants.csproj", "{9C38F68C-E46E-4812-93D4-EE567C744731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi.Framework.Extensions", "TestWebApi.Framework.Extensions\TestWebApi.Framework.Extensions.csproj", "{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb.Framework.Extensions", "TestWebApi.Framework.Extensions\TestWeb.Framework.Extensions.csproj", "{FEBACFCD-F7F7-4BB6-842F-8C808A6D2806}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testweb.DAL.Extensions", "Testweb.DAL.Extensions\Testweb.DAL.Extensions.csproj", "{09BED954-7648-4C6E-BD37-069747C8C6EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{8ACBE305-C008-4495-ABB3-B0ACD9A9ED11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{18D867D1-25B1-4C35-85F4-36DAB118509D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,9 +120,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{968C3238-F666-4DE9-92F1-D7840555BEC5} = {AF1FE9FC-E286-429E-8DE6-B9372B7EF272}
 		{D7EB9F77-639F-447E-B3A5-C4C7D7F94E3F} = {8F285015-99F2-4A2F-A78A-BF12BB6DB081}
+		{4910E78A-F67D-435D-83E2-79F679B499A8} = {8ACBE305-C008-4495-ABB3-B0ACD9A9ED11}
 		{167C2779-36A8-4DA0-9AC7-E920587AE0BB} = {7BBE4728-1633-4FF5-98AC-D1C72184A542}
-		{10EB58A0-7E48-404C-884F-F0088AA5B316} = {7BBE4728-1633-4FF5-98AC-D1C72184A542}
-		{15FC46F2-44B6-445E-8AD5-5FF618B8F54B} = {AF1FE9FC-E286-429E-8DE6-B9372B7EF272}
+		{10EB58A0-7E48-404C-884F-F0088AA5B316} = {18D867D1-25B1-4C35-85F4-36DAB118509D}
+		{15FC46F2-44B6-445E-8AD5-5FF618B8F54B} = {18D867D1-25B1-4C35-85F4-36DAB118509D}
 		{9E9FBC18-D49E-4BFB-84CB-F92397ABF9A2} = {A91AE79C-59D7-4B54-9E68-9D8394BE39E8}
 		{CCD41ACB-B1A6-4696-A03B-0F48A41992B6} = {A91AE79C-59D7-4B54-9E68-9D8394BE39E8}
 		{0C63F7B4-8AFC-4DE7-8FCC-A5EFCBFC26EC} = {A91AE79C-59D7-4B54-9E68-9D8394BE39E8}
